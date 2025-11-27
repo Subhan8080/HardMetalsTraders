@@ -329,6 +329,7 @@ body.menu-open {
 .featured-categories {
     padding: 80px 0;
     background-color: #f8f9fa;
+    overflow-x: hidden;
 }
 
 .categories-grid {
@@ -336,6 +337,8 @@ body.menu-open {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     margin-top: 40px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .category-card {
@@ -1620,6 +1623,7 @@ footer {
         height: 100%;
         object-fit: contain;
         padding: 6px;
+        max-width: 100%;
     }
 
     .mobile-smaller-img {
