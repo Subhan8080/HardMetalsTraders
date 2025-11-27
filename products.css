@@ -12,6 +12,9 @@
     min-height: 450px;
     background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
     padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .products-hero .hero-overlay {
@@ -22,6 +25,7 @@
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 .products-hero .hero-content h2 {
@@ -263,7 +267,11 @@
 @media (max-width: 768px) {
     .products-hero {
         min-height: 350px;
-        padding: 40px 0;
+        padding: 80px 0 40px 0;
+    }
+    
+    .products-hero .hero-content {
+        padding: 15px;
     }
     
     .products-hero .hero-content h2 {
@@ -297,7 +305,11 @@
 @media (max-width: 480px) {
     .products-hero {
         min-height: 300px;
-        padding-top: 60px;
+        padding: 70px 0 30px 0;
+    }
+    
+    .products-hero .hero-content {
+        padding: 10px;
     }
     
     .products-hero .hero-content h2 {
