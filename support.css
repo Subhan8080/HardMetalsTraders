@@ -3,6 +3,10 @@
     min-height: 350px;
 }
 
+.hero-secondary .hero-content {
+    text-align: center;
+}
+
 .hero-secondary .hero-content h2 {
     font-size: 42px;
 }
