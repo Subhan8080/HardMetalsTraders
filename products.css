@@ -11,6 +11,7 @@
 .products-hero {
     min-height: 450px;
     background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+    padding-top: 80px;
 }
 
 .products-hero .hero-overlay {
@@ -296,6 +297,7 @@
 @media (max-width: 480px) {
     .products-hero {
         min-height: 300px;
+        padding-top: 60px;
     }
     
     .products-hero .hero-content h2 {
@@ -1241,4 +1243,5 @@
     .dormer-product-content .btn {
         width: 100%;
     }
-}
+}
+

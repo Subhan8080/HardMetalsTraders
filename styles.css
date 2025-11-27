@@ -1593,15 +1593,15 @@ footer {
 
     .categories-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+        gap: 8px;
         padding: 0;
         margin-top: 20px;
         width: 100%;
     }
 
     .category-card {
-        padding: 12px 8px;
-        border-radius: 12px;
+        padding: 10px 6px;
+        border-radius: 10px;
         margin: 0;
         width: 100%;
         box-sizing: border-box;
